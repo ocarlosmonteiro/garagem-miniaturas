@@ -91,4 +91,14 @@ VALUES
 ('Chicane', 1, 2008, ''),
 ('Krazy 8S', 1, 2006, ''),
 ('Zender Fact 4', 1, 2007, ''),
-('Formula 1 - RedBull Racing', 6, 2025, '');
+('Formula 1 - RedBull Racing', 6, 2025, ''),
+('Formula 1 - Collection: RedBull', 1, 2025, 'JLN11'),
+('Formula 1 - Collection: Haas', 1, 2025, 'JLN11'),
+('Formula 1 - Collection: Mercedes', 1, 2025, 'JLN11'),
+('Formula 1 - Collection: Alpine', 1, 2025, 'JLN11'),
+('Formula 1 - Collection: Williams', 1, 2025, 'JLN11'),
+('Ferrari Dino 206 GT', 1, 2026, 'JKG16'),
+('Ferrari SF90 Stradale', 1, 2026, 'JKG16'),
+('Ferrari 365 GTB4 C', 1, 2026, 'JKG16'),
+('Ferrari 12Cilindri', 1, 2026, 'JKG16'),
+('Ferrari F40 Competizione', 1, 2026, 'JKG16');

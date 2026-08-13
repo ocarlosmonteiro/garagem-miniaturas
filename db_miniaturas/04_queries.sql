@@ -21,3 +21,28 @@ SELECT
 FROM miniatura AS m
 INNER JOIN fabricante AS f
     ON m.id_fabricante = f.id_fabricante;
+
+
+-- Consulta as miniaturas da Ferrari
+SELECT
+	m.id_miniatura AS `ID Miniatura`,
+    m.nome_miniatura AS `Nome miniatura`,
+    f.nome_fabricante AS Fabricante,
+    m.ano_lancamento AS Ano,
+    m.codigo AS Codigo
+FROM miniatura AS m
+INNER JOIN fabricante AS f
+	ON m.id_fabricante = f.id_fabricante
+WHERE m.nome_miniatura LIKE '%Ferrari%';
+
+-- Consulta as miniaturas da Formula 1
+SELECT
+	m.id_miniatura AS `ID Miniatura`,
+    m.nome_miniatura AS `Nome miniatura`,
+    f.nome_fabricante AS Fabricante,
+    m.ano_lancamento AS Ano,
+    m.codigo AS Codigo
+FROM miniatura AS m
+INNER JOIN fabricante AS f
+	ON m.id_fabricante = f.id_fabricante
+WHERE m.nome_miniatura LIKE '%Formula 1%';

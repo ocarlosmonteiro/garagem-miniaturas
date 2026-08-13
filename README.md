@@ -466,7 +466,9 @@ db-miniaturas/
 │   ├── 01_criacao_banco.sql
 │   ├── 02_criacao_tabelas.sql
 │   ├── 03_insercao_dados.sql
-│   └── 04_consultas.sql
+│   ├── 04_consultas.sql
+│   ├── 03_crieacao_view.sql
+│   └── 04_consultas_view.sql
 │
 └── imagens/
     └── resultado-consulta.png
