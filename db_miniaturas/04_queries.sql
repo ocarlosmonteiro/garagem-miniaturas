@@ -46,3 +46,16 @@ FROM miniatura AS m
 INNER JOIN fabricante AS f
 	ON m.id_fabricante = f.id_fabricante
 WHERE m.nome_miniatura LIKE '%Formula 1%';
+
+-- Consulta as miniaturas com a coluna escala, que foi adicionada na tabela miniatura através da chave estrangeira id_escala, que referencia a tabela escala.
+SELECT
+	m.id_miniatura AS `ID miniatura`,
+    m.nome_miniatura AS `Nome miniatura`,
+    e.escala AS `Escala`,
+    f.nome_fabricante AS `Fabricante`,
+    m.ano_lancamento AS `Ano de lançamento`
+FROM miniatura AS m
+INNER JOIN escala AS e
+	ON m.id_escala = e.id_escala
+INNER JOIN fabricante AS f
+	ON m.id_fabricante = f.id_fabricante;
