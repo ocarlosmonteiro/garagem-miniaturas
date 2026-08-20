@@ -28,7 +28,7 @@ A tabela possui dois campos:
 | Campo       | Tipo          | Descrição                                              |
 | ----------- | ------------- | ------------------------------------------------------ |
 | `id_escala` | `INT`         | Identificador único da escala                          |
-| `escala`    | `VARCHAR(10)` | Valor da escala, como `1:18`, `1:24`, `1:43` ou `1:64` |
+| `escala`    | `VARCHAR(4)` | Valor da escala, como `1:18`, `1:24`, `1:43` ou `1:64` |
 
 O campo `id_escala` é a chave primária da tabela e é incrementado automaticamente.
 

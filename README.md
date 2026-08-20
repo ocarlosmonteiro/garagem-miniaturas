@@ -483,13 +483,12 @@ O projeto pode ser expandido futuramente com novas informações e funcionalidad
 Algumas possibilidades são:
 
 * adicionar cor da miniatura;
-* adicionar escala;
+* adicionar foto da miniatura;
+* adicionar escala <-- Implementado 18/08/2026;
 * cadastrar coleções ou séries;
 * registrar data de aquisição;
 * registrar valor pago;
 * registrar valor estimado;
-* informar estado de conservação;
-* adicionar quantidade;
 * criar uma tabela para categorias;
 * criar uma tabela para coleções;
 * adicionar informações sobre edições especiais;
